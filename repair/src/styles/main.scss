@@ -1,9 +1,6 @@
-@use './themes/defaultTheme';
-@use './layout/app';
+@use './themes/defaultThemes';
 @use './util';
 @use './base';
+@use './layout/app';
 @use './pages';
 @use './components';
-// @use './layout/global';
-
-// @use './components';
