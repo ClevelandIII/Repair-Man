@@ -1,6 +1,11 @@
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
 *,
-*::after,
-*::before {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,6 +13,7 @@
   font-weight: normal;
   vertical-align: baseline;
   background: transparent;
+  box-sizing: inherit;
 }
 
 main,
@@ -23,18 +29,6 @@ summary {
   display: block;
 }
 
-//handle box-sizing on a inherited level
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-//this helps with image scaling, you might have an issye if you didnt make the embed. IF you do, comment out height:auto
 img,
 object,
 embed {
@@ -42,14 +36,12 @@ embed {
   height: auto;
 }
 
-//add smooth scrolling to the pages
-
-html {
-  overflow-y: scroll;
-}
-
 ul {
   list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 blockquote,
@@ -62,7 +54,7 @@ q {
   }
 }
 
-del {
+.del {
   text-decoration: line-through;
 }
 
@@ -72,23 +64,19 @@ dfn[title] {
   cursor: help;
 }
 
-//table settings
-table {
+.table {
   border-collapse: separate;
   border-spacing: 0;
 }
-
-th {
+.th {
   font-weight: bold;
-  vertical-align: bottom; //center is also common
+  vertical-align: bottom;
 }
-
-td {
+.td {
   font-weight: normal;
   vertical-align: top;
 }
-
-hr {
+.hr {
   display: block;
   height: 1px;
   border: 0;
@@ -102,26 +90,23 @@ select {
   vertical-align: middle;
 }
 
-pre {
-  white-space: pre; //CSS2
-  white-space: pre-wrap; //CSS2.1
-  white-space: pre-line; //CSS3
-  word-wrap: break-word; //IE
+.pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
 }
 
 input[type="radio"] {
   vertical-align: text-bottom;
 }
-
 input[type="checkbox"] {
   vertical-align: bottom;
 }
-
 .ie7 input[type="checkbox"] {
   vertical-align: baseline;
 }
-
-.ie6 input {
+.ie6 input[type="checkbox"] {
   vertical-align: text-bottom;
 }
 
@@ -131,27 +116,25 @@ textarea {
   font-size: 99%;
 }
 
-small {
+.small {
   font-size: 85%;
 }
 
-strong {
+.strong {
   font-weight: bold;
 }
 
-//super and subtext
-sub,
-sup {
+.sub,
+.sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-sup {
+.sup {
   top: -0.5em;
 }
-
-sub {
+.sub {
   bottom: -0.25em;
 }
 
@@ -164,24 +147,21 @@ button {
   cursor: pointer;
 }
 
-//fix buttons for ie7
-
 button,
 input[type="button"] {
   width: auto;
   overflow: hidden;
+  &:visited{
+    color: inherit;
+  }
 }
-
-//fix scaleable images for ie7
 
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
-//fixing container collapse
-
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
