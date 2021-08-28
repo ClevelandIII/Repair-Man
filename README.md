@@ -76,12 +76,12 @@
 
 ## Developing - Sean
 
-**Commit Name on GitHub:** SeanZimbelman  
+**Commit Name on GitHub:** SeanZimbelman
 
 **Date:** 8-27-21  
-**Problems you ran into today:**  
-**Daily Interactions:** breadcrumb  
-**Notable Changes:** breadcrumb
+**Problems you ran into today:**  Nav bar colors and hover styles were borken, and pages would only show up as home
+**Daily Interactions:** Nav bar shanangans
+**Notable Changes:** Nav bar acually works
 
 ---
 
