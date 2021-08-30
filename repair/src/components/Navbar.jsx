@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { links, socials } from "../utils/const";
 import { Link } from "react-router-dom";
+import logo from "../utils/logo.svg";
 
 export const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -10,7 +11,7 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={'na'} alt="logo" className="logo" />
+          <img src="https://picsum.photos/1000/1000?random=1" alt="logo" className="logo" />
           <button
             className="nav-toggle"
             onClick={() => {

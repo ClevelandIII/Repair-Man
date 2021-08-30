@@ -324,7 +324,7 @@ h4 {
   transform: rotate(90deg);
 }
 .navbar .nav-center .logo {
-  height: 30px;
+  width: 40px;
 }
 .navbar .nav-center .links-container {
   height: 0;
