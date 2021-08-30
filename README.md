@@ -37,7 +37,7 @@
 
 # Designing - PC
 
-**Mock ups(pics):** [Mock-Up](mockup.jpeg)  
+**Mock ups(pics):** [Mock-Up](mockup.jpg)  
 **Effective Color Scheme:** Red, White and Black  
 **Branding:**
 
@@ -46,7 +46,7 @@
 
 # Designing - mobile
 
-**Mock ups(pics):** [Mock-Up](mockup.jpeg)  
+**Mock ups(pics):** [Mock-Up](mockup.jpg)
 **Effective Color Scheme:** Red, White and Black  
 **Branding:**
 
@@ -79,8 +79,8 @@
 **Commit Name on GitHub:** SeanZimbelman
 
 **Date:** 8-27-21  
-**Problems you ran into today:**  Nav bar colors and hover styles were borken, and pages would only show up as home
-**Daily Interactions:** Nav bar shanangans
+**Problems you ran into today:** Nav bar colors and hover styles were borken, and pages would only show up as home  
+**Daily Interactions:** Nav bar shanangans  
 **Notable Changes:** Nav bar acually works
 
 # Delivery
