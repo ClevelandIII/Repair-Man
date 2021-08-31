@@ -8,7 +8,7 @@ const home = () => {
     <div className="home">
       <div className="header">
         <h1>{companyName}</h1>
-        <img src={mainPicture} alt="Big Picture" />
+        <img src={mainPicture} alt="Big Picture" className="BigPic"/>
       </div>
       {pictureData.map((info) => {
         const { img, name, words, side } = info;

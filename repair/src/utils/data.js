@@ -1,7 +1,7 @@
 export const homeData = [
   {
     companyName: 'Slogan and/or Company Name',
-    mainPicture: 'https://picsum.photos/1000/600?random=1',
+    mainPicture: 'https://picsum.photos/1000/600/?blur=2',
     pictureData: [
       {
         img: 'https://picsum.photos/1000/600?random=2',
@@ -17,4 +17,19 @@ export const homeData = [
       },
     ],
   },
+]
+
+export const photoData = [
+  {
+    img: 'https://picsum.photos/1000/600?random=1',
+    name: 'words',
+    words: 'https://picsum.photos/1000/600?random=1',
+    side: 'left',
+  },
+  {
+    img: 'https://picsum.photos/1000/600?random=2',
+    name: 'words',
+    words: 'https://picsum.photos/1000/600?random=1',
+    side: 'left',
+  }
 ]
