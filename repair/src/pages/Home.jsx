@@ -8,13 +8,13 @@ const home = () => {
     <div className="home">
       <div className="header">
         <h1>{companyName}</h1>
-        <img src={mainPicture} alt="Big Picture" className="BigPic"/>
+        <div className="img">
+          <img src={mainPicture} alt="Big Picture" />
+        </div>
       </div>
       {pictureData.map((info) => {
         const { img, name, words, side } = info;
-        return (
-            <Picture img={img} name={name} info={words} side={side} />
-        );
+        return <Picture img={img} name={name} info={words} side={side} />;
       })}
     </div>
   );
