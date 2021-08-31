@@ -415,4 +415,22 @@ h4 {
     margin: 0 0.5rem;
     transition: all 0.5s linear;
   }
+}
+.picture {
+  border: 1px #ce3b3b solid;
+  border-radius: 0.25rem;
+  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.picture img {
+  width: 40%;
+  margin: auto;
+}
+.picture p {
+  color: #000;
+  font-size: 1rem;
+  width: 40%;
 }/*# sourceMappingURL=main.css.map */

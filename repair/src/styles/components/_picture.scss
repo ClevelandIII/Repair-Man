@@ -1,0 +1,21 @@
+@use '../themes/defaultThemes' as *;
+@use '../util' as *;
+
+.picture{
+  border: 1px $primary-4 solid;
+  border-radius: $radius;
+  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  img{
+    width: 40%;
+    margin: auto;
+  }
+  p{
+    color: $black;
+    font-size: 1rem;
+    width: 40%;
+  }
+}
