@@ -19,7 +19,10 @@
       }
     }
     .logo {
-      width: 40px;
+      margin-left: 0%;
+      width: 10rem;
+      height: 2rem;
+      border: 1px solid white; //temp make sure to change
     }
     .links-container {
       height: 0;
@@ -38,12 +41,11 @@
         border-radius: $radius;
         &:hover {
           background: $grey-7;
-          padding-left: 1.5rem;
+          margin-left: 1rem;
         }
         &:visited {
           color: $primary-3;
         }
-        
       }
     }
     .socials {
@@ -53,11 +55,9 @@
       overflow: hidden;
       a {
         color: $primary-5;
+        transition: $transition;
         &:hover {
-          color: $primary-7;
-          &:visited {
-            color: $primary-7;
-          }
+          color: $primary-0;
         }
         &:visited {
           color: $primary-5;
@@ -76,13 +76,16 @@
 @include tablet {
   .navbar {
     .nav-center {
-      max-width: 1200px;
+      max-width: 1400px;
       @include center-auto;
       @include flex-space;
       padding: 1rem;
 
       .logo {
-        height: 40px;
+        margin-left: 0%;
+        width: 10rem;
+        height: 2rem;
+        border: 1px solid white; //temp make sure to change
       }
 
       .nav-header {
@@ -102,18 +105,24 @@
             margin: 0.1rem;
             &:hover {
               padding: 0.5rem 1rem;
+              margin-left: 0rem;
             }
           }
         }
       }
-
-
       .socials {
         display: flex;
         height: auto;
         a {
-          margin: 0 0.5rem;
+          color: $primary-5;
           transition: $transition;
+
+          &:hover {
+            color: $primary-0;
+          }
+          &:visited {
+            color: $primary-5;
+          }
         }
       }
     }

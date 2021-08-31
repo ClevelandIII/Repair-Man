@@ -277,7 +277,7 @@ h4 {
   display: block;
   width: 45%;
   border-color: transparent;
-  background: #ce3b3b;
+  background: #d02525;
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
@@ -316,15 +316,18 @@ h4 {
 }
 .navbar .nav-center .nav-toggle {
   font-size: 1.5rem;
-  color: #ce3b3b;
+  color: #d02525;
   transition: all 0.5s linear;
 }
 .navbar .nav-center .nav-toggle:hover {
-  color: #dd7878;
+  color: #e36363;
   transform: rotate(90deg);
 }
 .navbar .nav-center .logo {
-  width: 40px;
+  margin-left: 0%;
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid white;
 }
 .navbar .nav-center .links-container {
   height: 0;
@@ -334,7 +337,7 @@ h4 {
   height: auto;
 }
 .navbar .nav-center .links-container .links a {
-  color: #b82e2e;
+  color: #ad1f1f;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
@@ -345,10 +348,10 @@ h4 {
 }
 .navbar .nav-center .links-container .links a:hover {
   background: #afbdca;
-  padding-left: 1.5rem;
+  margin-left: 1rem;
 }
 .navbar .nav-center .links-container .links a:visited {
-  color: #b82e2e;
+  color: #ad1f1f;
 }
 .navbar .nav-center .socials {
   display: flex;
@@ -357,16 +360,14 @@ h4 {
   overflow: hidden;
 }
 .navbar .nav-center .socials a {
-  color: #d65c5c;
+  color: #dd4040;
+  transition: all 0.5s linear;
 }
 .navbar .nav-center .socials a:hover {
-  color: #e49595;
-}
-.navbar .nav-center .socials a:hover:visited {
-  color: #e49595;
+  color: #450c0c;
 }
 .navbar .nav-center .socials a:visited {
-  color: #d65c5c;
+  color: #dd4040;
 }
 .navbar .nav-center .socials.show {
   height: auto;
@@ -377,7 +378,7 @@ h4 {
 
 @media only screen and (min-width: 760px) {
   .navbar .nav-center {
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -386,7 +387,10 @@ h4 {
     padding: 1rem;
   }
   .navbar .nav-center .logo {
-    height: 40px;
+    margin-left: 0%;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid white;
   }
   .navbar .nav-center .nav-header {
     padding: 0;
@@ -406,13 +410,20 @@ h4 {
   }
   .navbar .nav-center .links-container .links a:hover {
     padding: 0.5rem 1rem;
+    margin-left: 0rem;
   }
   .navbar .nav-center .socials {
     display: flex;
     height: auto;
   }
   .navbar .nav-center .socials a {
-    margin: 0 0.5rem;
+    color: #dd4040;
     transition: all 0.5s linear;
+  }
+  .navbar .nav-center .socials a:hover {
+    color: #450c0c;
+  }
+  .navbar .nav-center .socials a:visited {
+    color: #dd4040;
   }
 }/*# sourceMappingURL=main.css.map */
