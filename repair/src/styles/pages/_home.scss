@@ -1,0 +1,20 @@
+@use '../themes/defaultThemes' as *;
+@use '../util' as *;
+
+.home{
+  .header{
+    h1{
+      font-size: 2rem;
+      color: $black;
+      margin: 1rem auto;
+      width: 80vw;
+      text-align: center;
+    }
+    .img{
+      margin: 0 auto;
+      width: fit-content;
+      width: 80vw;
+      max-width: 1000px;
+    }
+  }
+}

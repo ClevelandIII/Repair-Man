@@ -304,6 +304,22 @@ h4 {
     justify-content: center;
   }
 }
+.home .header h1 {
+  font-size: 2rem;
+  color: #000;
+  margin: 1rem auto;
+  width: 80vw;
+  text-align: center;
+}
+.home .header .img {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 80vw;
+  max-width: 1000px;
+}
+
 .navbar {
   background: #000;
   box-shadow: 0 5px 15px #0002;
