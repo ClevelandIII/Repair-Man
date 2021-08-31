@@ -1,6 +1,6 @@
 import {FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import React from 'react';
-import {About, Contact, Cart, Home, Error} from "../pages";
+import {About, Contact, Photos, Home, Error} from "../pages";
 
 export const links = [
   {
@@ -16,16 +16,16 @@ export const links = [
     page: <About/>,
   },
   {
+    id: 5,
+    url: '/photos',
+    text: 'photos',
+    page: <Photos/>,
+  },
+  {
     id: 3,
     url: '/contact',
     text: 'contact',
     page: <Contact/>,
-  },
-  {
-    id: 5,
-    url: '/cart',
-    text: 'cart',
-    page: <Cart/>,
   },
   {
     id: 7,

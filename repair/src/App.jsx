@@ -1,6 +1,6 @@
 import { links } from "./utils/const.js";
 import { Route, Switch } from "react-router-dom";
-import { About, Contact, Home, Error } from "./pages";
+import { About, Contact, Home, Photos, Error } from "./pages";
 import { Navbar } from "./components/Navbar.jsx";
 
 function App() {
