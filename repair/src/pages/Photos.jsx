@@ -3,12 +3,12 @@ import { photoData } from "../utils/data";
 
 const Photos = () => {
   return (
-    <div className="home">
-      {photoData.map((info) => {
-        const { image } = info;
-        return <img src={image} alt="Given" className="image"/>;
-      })}
-    </div>
+      <div className="photos">
+        {photoData.map((info) => {
+          const { image } = info;
+          return <img src={image} alt="Given" className="image" />;
+        })}
+      </div>
   );
 };
 

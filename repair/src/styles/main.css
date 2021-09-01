@@ -321,12 +321,15 @@ h4 {
 }
 
 .image {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
+  margin-right: 1.5%;
+  margin-bottom: 1%;
 }
 
 .home {
-  padding: 1rem 0.5rem;
+  padding: 2.1rem 2.1rem;
+  width: 90%;
 }
 
 .navbar {
@@ -486,7 +489,6 @@ h4 {
 }
 
 .footer {
-  margin-top: 2%;
   border: 2px solid #000;
   background-color: #000;
   color: rgba(255, 255, 255, 0.7);
