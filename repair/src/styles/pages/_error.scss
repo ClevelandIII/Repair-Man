@@ -1,0 +1,16 @@
+@use '../themes/defaultThemes' as *;
+@use '../util' as *;
+
+.error{
+  height: 80vh;
+  width: 100%;
+  background-color: $black;
+.text{
+  height: fit-content;
+  width: fit-content;
+  margin: 50% auto;
+  color: $primary-2;
+  font-size: 4rem;
+  text-align: center;
+}
+}
