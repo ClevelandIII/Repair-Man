@@ -2,6 +2,7 @@ import { links } from "./utils/const.js";
 import { Route, Switch } from "react-router-dom";
 import { About, Contact, Home, Photos, Error } from "./pages";
 import { Navbar } from "./components/Navbar.jsx";
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Error/>
       </Route> */}
       </Switch>
+      <Footer/>
     </>
   );
 }

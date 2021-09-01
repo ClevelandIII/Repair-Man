@@ -7,9 +7,9 @@ const home = () => {
   return (
     <div className="home">
       <div className="header">
-        <h1>{companyName}</h1>
+        <h1 className="center">{companyName}</h1>
         <div className="img">
-          <img src={mainPicture} alt="Big Picture" />
+          <img src={mainPicture} alt="Big Picture" className="BigPic" />
         </div>
       </div>
       {pictureData.map((info) => {
