@@ -8,11 +8,11 @@
   color: $transwhite;
   padding: 1rem 0.5rem;
   text-align: center;
-  font-size: .7rem;
+  font-size: .3rem;
   .spacing {
     @include flex-center;
     color: $primary-4;
-    font-size: 1rem;
+    font-size: .6rem;
     margin-bottom: 1%;
     .left {
       width: 48%;
@@ -21,6 +21,15 @@
     .right {
       width: 48%;
       text-align: center;
+    }
+  }
+}
+
+@include tablet{
+  .footer {
+    font-size: .7rem;
+    .spacing {
+      font-size: 1rem;
     }
   }
 }
