@@ -3,14 +3,14 @@ import React, { useState, useEffect } from "react";
 import Picture from "../components/Picture";
 
 const About = () => {
-  const { aboutMe, mainPicture, pictureData } = aboutData[0];
+  const { header, about, pictureData } = aboutData[0];
   return (
-    <div className="home">
+    <div className="about">
       <div className="header">
-        <h1 className="center">{aboutMe}</h1>
-        <div className="img">
-          <img src={mainPicture} alt="Big Picture" className="BigPic" />
-        </div>
+        <h1 className="center">{header}</h1>
+        {about.map((paragraph) => {
+          return <p className='aboutMe'>{paragraph}</p>
+        })}
       </div>
       {pictureData.map((info) => {
         const { img, name, words, side } = info;
