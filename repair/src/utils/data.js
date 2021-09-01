@@ -40,84 +40,85 @@ export const aboutData = [
   },
 ]
 
-export const photoData = [
+export const photoData =[
   {
-    title: 'Photos',
-    pictureData: [
-      {
-        img: 'https://picsum.photos/1000/600?random=1',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=2',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=3',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=4',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=5',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=6',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=7',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=8',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=9',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=10',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=11',
-        name: '',
-        words: '',
-        side: '',
-      },
-      {
-        img: 'https://picsum.photos/1000/600?random=12',
-        name: '',
-        words: '',
-        side: '',
-      },
+    image: 'https://picsum.photos/1000/600?random=1',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=2',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=3',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=4',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=5',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=6',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=7',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=8',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=9',
+  },
 
-    ],
+  {
+    image: 'https://picsum.photos/1000/600?random=10',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=11',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=12',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=13',
+  },
+
+  {
+    image: 'https://picsum.photos/1000/600?random=14',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=15',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=16',
+  },
+
+  {
+    image: 'https://picsum.photos/1000/600?random=17',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=18',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=19',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=20',
+  },
+
+  {
+    image: 'https://picsum.photos/1000/600?random=21',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=22',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=23',
+  },
+  {
+    image: 'https://picsum.photos/1000/600?random=24',
+  },
+
+  {
+    image: 'https://picsum.photos/1000/600?random=25',
   },
 ]
-

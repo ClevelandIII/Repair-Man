@@ -75,7 +75,12 @@
 **Date:** 8-30-21  
 **Problems you ran into today:** Photo Pages  
 **Daily Interactions:** Photo Pages and Nav bar  
-**Notable Changes:** scss
+**Notable Changes:** scss   
+
+**Date:** 8-31-21  
+**Problems you ran into today:** None
+**Daily Interactions:** Photo Pages and Footer  
+**Notable Changes:** Footer and Photo page
 
 ---
 

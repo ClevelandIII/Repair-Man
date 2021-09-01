@@ -9,6 +9,7 @@
   padding: 1rem 0.5rem;
   text-align: center;
   font-size: .3rem;
+  // background-color: color-picker(0, 4);
   .spacing {
     @include flex-center;
     color: $primary-4;

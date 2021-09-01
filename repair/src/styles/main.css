@@ -320,6 +320,15 @@ h4 {
   max-width: 1000px;
 }
 
+.image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.home {
+  padding: 1rem 0.5rem;
+}
+
 .navbar {
   background: #000;
   box-shadow: 0 5px 15px #0002;
