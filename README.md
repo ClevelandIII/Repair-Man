@@ -72,6 +72,11 @@
 **Daily Interactions:** Wire Frame and Read Me  
 **Notable Changes:** ReadME and Wire Frame set up
 
+**Date:** 8-30-21  
+**Problems you ran into today:** Photo Pages  
+**Daily Interactions:** Photo Pages and Nav bar  
+**Notable Changes:** scss
+
 ---
 
 ## Developing - Sean
