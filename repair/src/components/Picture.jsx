@@ -62,7 +62,7 @@ const Picture = ({ img, name, info, side }) => {
           <p>
             {readMore ? `${info}... ` : `${info.substring(0, words)}... `}
             <button
-              onClick={() => {
+              onClick={() => { 
                 setReadMore(!readMore);
               }}
             >
