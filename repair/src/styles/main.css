@@ -344,9 +344,15 @@ h4 {
 }
 
 .photos {
-  padding: 2.1rem 2.1rem;
+  padding: 1rem 1rem;
   width: 90%;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1%;
 }
 
 .error {
