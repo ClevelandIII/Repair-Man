@@ -83,6 +83,11 @@
 **Daily Interactions:** Nav bar shanangans  
 **Notable Changes:** Nav bar acually works
 
+**Date:** 8-30-21  
+**Problems you ran into today:**  Picture objects not working correctly
+**Daily Interactions:** Finished up home and made picture component
+**Notable Changes:** Picture component for pictures
+
 # Delivery
 
 **Screenshots of final product:**  
