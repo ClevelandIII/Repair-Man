@@ -250,6 +250,23 @@ h4 {
     line-height: 1;
   }
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .container {
   width: 90vw;
   margin: 5rem 0;
