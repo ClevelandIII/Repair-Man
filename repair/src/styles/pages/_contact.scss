@@ -1,0 +1,44 @@
+@use '../themes/defaultThemes' as *;
+@use '../util' as *;
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.nforums {
+  @include flex-center;
+  padding: 1rem 1rem;
+  margin-bottom: 1%;
+  .fname {
+    background-color: beige;
+    border: 2px solid grey;
+    border-radius: $radius;
+    width: 40%;
+    height: 2rem;
+    margin-right: 1%;
+  }
+  .lname {
+    background-color: beige;
+    border: 2px solid grey;
+    border-radius: $radius;
+    width: 40%;
+    height: 2rem;
+  }
+}
+
+.question {
+  @include flex-center;
+  padding: 1rem 1rem;
+  margin-bottom: 1%;
+
+  .questinput {
+    background-color: beige;
+    border: 2px solid grey;
+    border-radius: $radius;
+    width: 40%;
+    height: 40%;
+    height: 2rem;
+  }
+}
