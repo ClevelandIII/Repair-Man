@@ -82,6 +82,11 @@
 **Daily Interactions:** Photo Pages and Footer  
 **Notable Changes:** Footer and Photo page
 
+**Date:** 9-1-21  
+**Problems you ran into today:** None
+**Daily Interactions:** Photo Page and Contact Page 
+**Notable Changes:** Photo Page final and Contact Page near final
+
 ---
 
 ## Developing - Sean
