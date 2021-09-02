@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="left">Contact info and Extra Social Media</div>
         <div className="right">Locations and Range</div>
       </div>
-      Name of Company
+      Name of Company (c)
     </div>
   );
 };
