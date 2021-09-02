@@ -75,17 +75,22 @@
 **Date:** 8-30-21  
 **Problems you ran into today:** Photo Pages  
 **Daily Interactions:** Photo Pages and Nav bar  
-**Notable Changes:** scss   
+**Notable Changes:** scss
 
 **Date:** 8-31-21  
-**Problems you ran into today:** None
+**Problems you ran into today:** None  
 **Daily Interactions:** Photo Pages and Footer  
 **Notable Changes:** Footer and Photo page
 
 **Date:** 9-1-21  
-**Problems you ran into today:** None
-**Daily Interactions:** Photo Page and Contact Page 
+**Problems you ran into today:** None  
+**Daily Interactions:** Photo Page and Contact Page  
 **Notable Changes:** Photo Page final and Contact Page near final
+
+**Date:** 9-2-21  
+**Problems you ran into today:** None  
+**Daily Interactions:** Contact Page  
+**Notable Changes:** Information additions
 
 ---
 
@@ -99,7 +104,7 @@
 **Notable Changes:** Nav bar acually works
 
 **Date:** 8-30-21  
-**Problems you ran into today:**  Picture objects not working correctly
+**Problems you ran into today:** Picture objects not working correctly
 **Daily Interactions:** Finished up home and made picture component
 **Notable Changes:** Picture component for pictures
 
