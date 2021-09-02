@@ -344,9 +344,15 @@ h4 {
 }
 
 .photos {
-  padding: 2.1rem 2.1rem;
+  padding: 1rem 1rem;
   width: 90%;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1%;
 }
 
 .error {
@@ -365,6 +371,51 @@ h4 {
   color: #8b1818;
   font-size: 4rem;
   text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.nforums {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1%;
+}
+.nforums .fname {
+  background-color: beige;
+  border: 2px solid grey;
+  border-radius: 0.25rem;
+  width: 40%;
+  height: 2rem;
+  margin-right: 1%;
+}
+.nforums .lname {
+  background-color: beige;
+  border: 2px solid grey;
+  border-radius: 0.25rem;
+  width: 40%;
+  height: 2rem;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1%;
+}
+.question .questinput {
+  background-color: beige;
+  border: 2px solid grey;
+  border-radius: 0.25rem;
+  width: 40%;
+  height: 40%;
+  height: 2rem;
 }
 
 .navbar {
