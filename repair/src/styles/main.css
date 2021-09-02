@@ -344,7 +344,7 @@ h4 {
 }
 
 .photos {
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
   width: 90%;
   margin: 0 auto;
 }
@@ -353,6 +353,7 @@ h4 {
   font-size: 2rem;
   text-align: center;
   margin-top: 1%;
+  margin-bottom: 0%;
 }
 
 .error {
@@ -390,7 +391,7 @@ h1 {
   margin-bottom: 1%;
 }
 .nforums .fname {
-  background-color: beige;
+  background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
@@ -398,7 +399,30 @@ h1 {
   margin-right: 1%;
 }
 .nforums .lname {
-  background-color: beige;
+  background-color: #ffffe6;
+  border: 2px solid grey;
+  border-radius: 0.25rem;
+  width: 40%;
+  height: 2rem;
+}
+
+.eforums {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1%;
+}
+.eforums .email {
+  background-color: #ffffe6;
+  border: 2px solid grey;
+  border-radius: 0.25rem;
+  width: 40%;
+  height: 2rem;
+  margin-right: 1%;
+}
+.eforums .subject {
+  background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
@@ -413,12 +437,24 @@ h1 {
   margin-bottom: 1%;
 }
 .question .questinput {
-  background-color: beige;
+  background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
-  height: 40%;
+  height: 10rem;
+}
+
+.bcontainer {
+  text-align: center;
+}
+.bcontainer .finish {
+  border-radius: 0.25rem;
+  border: 2px solid grey;
+  background-color: #d02525;
+  color: white;
+  width: 10rem;
   height: 2rem;
+  margin-bottom: 1%;
 }
 
 .navbar {

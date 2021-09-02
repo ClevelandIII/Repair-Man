@@ -12,7 +12,7 @@ h1 {
   padding: 1rem 1rem;
   margin-bottom: 1%;
   .fname {
-    background-color: beige;
+    background-color: rgb(255, 255, 230);
     border: 2px solid grey;
     border-radius: $radius;
     width: 40%;
@@ -20,7 +20,7 @@ h1 {
     margin-right: 1%;
   }
   .lname {
-    background-color: beige;
+    background-color: rgb(255, 255, 230);
     border: 2px solid grey;
     border-radius: $radius;
     width: 40%;
@@ -28,17 +28,50 @@ h1 {
   }
 }
 
+.eforums {
+    @include flex-center;
+    padding: 1rem 1rem;
+    margin-bottom: 1%;
+    .email {
+      background-color: rgb(255, 255, 230);
+      border: 2px solid grey;
+      border-radius: $radius;
+      width: 40%;
+      height: 2rem;
+      margin-right: 1%;
+    }
+    .subject {
+      background-color: rgb(255, 255, 230);
+      border: 2px solid grey;
+      border-radius: $radius;
+      width: 40%;
+      height: 2rem;
+    }
+  }
+
 .question {
   @include flex-center;
   padding: 1rem 1rem;
   margin-bottom: 1%;
 
   .questinput {
-    background-color: beige;
+    background-color: rgb(255, 255, 230);
     border: 2px solid grey;
     border-radius: $radius;
     width: 40%;
-    height: 40%;
+    height: 10rem;
+  }
+}
+
+.bcontainer {
+    text-align: center;
+  .finish {
+    border-radius: $radius;
+    border: 2px solid grey;
+    background-color: $primary-4;
+    color: white;
+    width: 10rem;
     height: 2rem;
+    margin-bottom: 1%;
   }
 }

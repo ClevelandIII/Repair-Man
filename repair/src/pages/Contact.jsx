@@ -6,13 +6,19 @@ const Contact = () => {
       <h1>Contact Me</h1>
       <form action="submit">
         <div className="nforums">
-          <input type="text" className="fname" placeholder="enter first name"/>
-          <input type="text"className="lname" placeholder="enter last name"/>
+          <input type="text" className="fname" placeholder="First Name" />
+          <input type="text" className="lname" placeholder="Last Name" />
+        </div>
+        <div className="eforums">
+          <input type="text" className="email" placeholder="Email" />
+          <input type="text" className="subject" placeholder="Subject" />
         </div>
         <div className="question">
-          <input type="text" placeholder="text" className="questinput"/>
+          <textarea type="text" placeholder="Question" className="questinput" />
         </div>
-        <button>Send the Message</button>
+        <div className="bcontainer">
+          <button className="finish">Send the Message</button>
+        </div>
       </form>
     </div>
   );
