@@ -19,6 +19,9 @@ const Contact = () => {
         <div className="bcontainer">
           <button className="finish">Send the Message</button>
         </div>
+        <div className="number">
+          <h1>...or call me at +16234745069</h1>
+        </div>
       </form>
     </div>
   );
