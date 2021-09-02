@@ -2,14 +2,17 @@
 @use '../util' as *;
 
 .error{
-  height: 80vh;
+  min-height: Calc(100vh - 80px - 6rem);
   width: 100%;
   background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 .text{
   height: fit-content;
   width: fit-content;
-  margin: 50% auto;
-  color: $primary-2;
+  margin: 0 auto;
+  color: $primary-5;
   font-size: 4rem;
   text-align: center;
 }
