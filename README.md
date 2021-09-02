@@ -98,6 +98,16 @@
 **Daily Interactions:** Finished up home and made picture component
 **Notable Changes:** Picture component for pictures
 
+**Date:** 9-1-21  
+**Problems you ran into today:**  Styling
+**Daily Interactions:** Styled what we already had
+**Notable Changes:** Changed picture component words to go by letter
+
+**Date:** 9-2-21  
+**Problems you ran into today:**  Error page
+**Daily Interactions:** Fixed error page and finished about page
+**Notable Changes:** Fixed error page
+
 # Delivery
 
 **Screenshots of final product:**  
