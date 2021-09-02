@@ -356,6 +356,27 @@ h4 {
   margin-bottom: 0%;
 }
 
+.error {
+  min-height: calc(100vh - 80px - 6rem);
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.error .text {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: #dd4040;
+  font-size: 4rem;
+  text-align: center;
+}
+
 h1 {
   font-size: 2rem;
   text-align: center;
@@ -593,6 +614,9 @@ h1 {
 }
 
 .footer {
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
   border: 2px solid #000;
   background-color: #000;
   color: rgba(255, 255, 255, 0.7);
