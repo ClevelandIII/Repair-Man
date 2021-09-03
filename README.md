@@ -2,7 +2,7 @@
 
 ### **Designer Company:**
 
-1. F
+1. ZeroTwoFive
 
 ### **Designer Names:**
 
@@ -19,8 +19,8 @@
 
 # Planning
 
-**Business:** AC Repair
-**Current Site:** N/A
+**Business:** AC Repair  
+**Current Site:** N/A  
 
 - _Keep/Change:_ N/A  
   **Goals:** Have a website to advertise the buisness  
@@ -31,7 +31,7 @@
   **Unique Features:** Hours drop down tab, maybe a how can we help message bubble  
   **Example Sites:** [rvinspectorpros](https://rvinspectorpros.com/), [desertskiesrvrepair](https://desertskiesrvrepair.com/), [rvinspectorpros](https://onetrout.com/)  
   **Timeline:** 3 Days  
-  **Deadlines:** Wednesday, September 1
+  **Deadlines:** Wednesday, September 2                     
 - _Flexibility:_ None  
   **Main Contact:** cwilli290@west-mec.org, szimbe295@west-mec.org, 16234745069 (Customer)
 
@@ -46,8 +46,8 @@
 
 # Designing - mobile
 
-**Mock ups(pics):** [Mock-Up](mockup.jpg)
-**Effective Color Scheme:** Red, White and Black  
+**Mock ups(pics):** [Mock-Up](mockup.jpg)       
+**Effective Color Scheme:** Red, White and Black     
 **Branding:**
 
 - _Logo (but smaller):_ N/A
@@ -101,27 +101,27 @@
 **Date:** 8-27-21  
 **Problems you ran into today:** Nav bar colors and hover styles were borken, and pages would only show up as home  
 **Daily Interactions:** Nav bar shanangans  
-**Notable Changes:** Nav bar acually works
+**Notable Changes:** Nav bar acually works    
 
-**Date:** 8-30-21  
-**Problems you ran into today:** Picture objects not working correctly
-**Daily Interactions:** Finished up home and made picture component
-**Notable Changes:** Picture component for pictures
+**Date:** 8-30-21    
+**Problems you ran into today:** Picture objects not working correctly    
+**Daily Interactions:** Finished up home and made picture component     
+**Notable Changes:** Picture component for pictures    
 
-**Date:** 9-1-21  
-**Problems you ran into today:**  Styling
-**Daily Interactions:** Styled what we already had
-**Notable Changes:** Changed picture component words to go by letter
+**Date:** 8-31-21   
+**Problems you ran into today:**  Styling    
+**Daily Interactions:** Styled what we already had    
+**Notable Changes:** Changed picture component words to go by letter      
 
-**Date:** 9-2-21  
-**Problems you ran into today:**  Error page
-**Daily Interactions:** Fixed error page and finished about page
-**Notable Changes:** Fixed error page
+**Date:** 9-1-21    
+**Problems you ran into today:**  Error page     
+**Daily Interactions:** Fixed error page and finished about page    
+**Notable Changes:** Fixed error page    
 
-**Date:** 9-3-21  
-**Problems you ran into today:**  None
-**Daily Interactions:** Finished styles
-**Notable Changes:** Minor changed to footer
+**Date:** 9-2-21     
+**Problems you ran into today:**  None      
+**Daily Interactions:** Finished styles     
+**Notable Changes:** Minor changed to footer     
 
 # Delivery
 
@@ -135,7 +135,7 @@
 
 > _This is normally a section for later that is used after development. This time it will be a reflection area._
 
-**What did you do wrong, and how will you do it differently next time:** 
-**What was the hardest part of this project:**  
-**What part was the most fun to do:**  
-**Is there a way that I could have made this SDLC better or more comprehensive:**
+**What did you do wrong, and how will you do it differently next time:** We didn't have all the information for the website, but next time we could get that information I suppose.   
+**What was the hardest part of this project:** For me, working with React is tough. For Sean, probably some responsive scss design.    
+**What part was the most fun to do:** For me, the scss was fun to work with. For Sean, im sure his picture formatter was fun to make. Tough, but fun.    
+**Is there a way that I could have made this SDLC better or more comprehensive:** More formatting or information could help but it wouldnt have been neccessary.    
