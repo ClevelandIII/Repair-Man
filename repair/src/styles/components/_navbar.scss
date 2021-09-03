@@ -4,6 +4,7 @@
 .navbar {
   background: $black;
   box-shadow: $light-shadow;
+  min-height: 80px;
   .nav-center {
     .nav-header {
       @include flex-space;
@@ -20,8 +21,8 @@
     }
     .logo {
       margin-left: 0%;
-      width: 2rem;
-      height: 2rem;
+      width: 3rem;
+      height: 3rem;
       border: 1px solid white; //temp make sure to change
     }
     .links-container {

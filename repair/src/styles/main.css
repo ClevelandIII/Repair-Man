@@ -321,6 +321,10 @@ h4 {
     justify-content: center;
   }
 }
+.home {
+  min-height: calc(100vh - 80px - 8rem);
+  margin-top: 1rem;
+}
 .home .header h1 {
   font-size: 2rem;
   color: #000;
@@ -337,6 +341,10 @@ h4 {
   max-width: 1000px;
 }
 
+.about {
+  min-height: calc(100vh - 80px - 7rem);
+  margin-top: 1rem;
+}
 .about .header h1 {
   font-size: 2rem;
   color: #000;
@@ -353,23 +361,24 @@ h4 {
   max-width: 1000px;
 }
 
-.image {
+.photos {
+  min-height: calc(100vh - 80px - 7rem);
+  margin-top: 1rem;
+}
+.photos .gallery {
+  padding: 2rem 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.photos .gallery .image {
   width: 15rem;
   height: 15rem;
   margin-right: 1.5%;
   margin-bottom: 1%;
 }
-
-.photos {
-  padding: 2rem 2rem;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.title {
+.photos .title {
   font-size: 2rem;
   text-align: center;
-  margin-top: 1%;
   margin-bottom: 0%;
 }
 
@@ -394,20 +403,22 @@ h4 {
   text-align: center;
 }
 
-h1 {
+.contact {
+  min-height: calc(100vh - 80px - 7rem);
+  margin-top: 1rem;
+}
+.contact h1 {
   font-size: 2rem;
   text-align: center;
-  margin-top: 1%;
 }
-
-.nforums {
+.contact .nforums {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 1rem;
   margin-bottom: 1%;
 }
-.nforums .fname {
+.contact .nforums .fname {
   background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
@@ -415,22 +426,21 @@ h1 {
   height: 2rem;
   margin-right: 1%;
 }
-.nforums .lname {
+.contact .nforums .lname {
   background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
   height: 2rem;
 }
-
-.eforums {
+.contact .eforums {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 1rem;
   margin-bottom: 1%;
 }
-.eforums .email {
+.contact .eforums .email {
   background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
@@ -438,33 +448,31 @@ h1 {
   height: 2rem;
   margin-right: 1%;
 }
-.eforums .subject {
+.contact .eforums .subject {
   background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
   height: 2rem;
 }
-
-.question {
+.contact .question {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 1rem;
   margin-bottom: 1%;
 }
-.question .questinput {
+.contact .question .questinput {
   background-color: #ffffe6;
   border: 2px solid grey;
   border-radius: 0.25rem;
   width: 40%;
   height: 10rem;
 }
-
-.bcontainer {
+.contact .bcontainer {
   text-align: center;
 }
-.bcontainer .finish {
+.contact .bcontainer .finish {
   border-radius: 0.25rem;
   border: 2px solid grey;
   background-color: #d02525;
@@ -477,6 +485,7 @@ h1 {
 .navbar {
   background: #000;
   box-shadow: 0 5px 15px #0002;
+  min-height: 80px;
 }
 .navbar .nav-center .nav-header {
   display: flex;
@@ -495,8 +504,8 @@ h1 {
 }
 .navbar .nav-center .logo {
   margin-left: 0%;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border: 1px solid white;
 }
 .navbar .nav-center .links-container {
