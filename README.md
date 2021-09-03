@@ -118,6 +118,11 @@
 **Daily Interactions:** Fixed error page and finished about page
 **Notable Changes:** Fixed error page
 
+**Date:** 9-3-21  
+**Problems you ran into today:**  None
+**Daily Interactions:** Finished styles
+**Notable Changes:** Minor changed to footer
+
 # Delivery
 
 **Screenshots of final product:**  

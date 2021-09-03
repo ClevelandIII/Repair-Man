@@ -2,6 +2,8 @@
 @use '../util' as *;
 
 .home{
+  min-height: Calc(100vh - 80px - 8rem);
+  margin-top: 1rem;
   .header{
     h1{
       font-size: 2rem;

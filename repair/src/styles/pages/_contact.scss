@@ -1,34 +1,36 @@
 @use '../themes/defaultThemes' as *;
 @use '../util' as *;
 
-h1 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 1%;
-}
-
-.nforums {
-  @include flex-center;
-  padding: 1rem 1rem;
-  margin-bottom: 1%;
-  .fname {
-    background-color: rgb(255, 255, 230);
-    border: 2px solid grey;
-    border-radius: $radius;
-    width: 40%;
-    height: 2rem;
-    margin-right: 1%;
+.contact {
+  min-height: Calc(100vh - 80px - 7rem);
+  margin-top: 1rem;
+  h1 {
+    font-size: 2rem;
+    text-align: center;
   }
-  .lname {
-    background-color: rgb(255, 255, 230);
-    border: 2px solid grey;
-    border-radius: $radius;
-    width: 40%;
-    height: 2rem;
-  }
-}
 
-.eforums {
+  .nforums {
+    @include flex-center;
+    padding: 1rem 1rem;
+    margin-bottom: 1%;
+    .fname {
+      background-color: rgb(255, 255, 230);
+      border: 2px solid grey;
+      border-radius: $radius;
+      width: 40%;
+      height: 2rem;
+      margin-right: 1%;
+    }
+    .lname {
+      background-color: rgb(255, 255, 230);
+      border: 2px solid grey;
+      border-radius: $radius;
+      width: 40%;
+      height: 2rem;
+    }
+  }
+
+  .eforums {
     @include flex-center;
     padding: 1rem 1rem;
     margin-bottom: 1%;
@@ -49,29 +51,30 @@ h1 {
     }
   }
 
-.question {
-  @include flex-center;
-  padding: 1rem 1rem;
-  margin-bottom: 1%;
-
-  .questinput {
-    background-color: rgb(255, 255, 230);
-    border: 2px solid grey;
-    border-radius: $radius;
-    width: 40%;
-    height: 10rem;
-  }
-}
-
-.bcontainer {
-    text-align: center;
-  .finish {
-    border-radius: $radius;
-    border: 2px solid grey;
-    background-color: $primary-4;
-    color: white;
-    width: 10rem;
-    height: 2rem;
+  .question {
+    @include flex-center;
+    padding: 1rem 1rem;
     margin-bottom: 1%;
+
+    .questinput {
+      background-color: rgb(255, 255, 230);
+      border: 2px solid grey;
+      border-radius: $radius;
+      width: 40%;
+      height: 10rem;
+    }
+  }
+
+  .bcontainer {
+    text-align: center;
+    .finish {
+      border-radius: $radius;
+      border: 2px solid grey;
+      background-color: $primary-4;
+      color: white;
+      width: 10rem;
+      height: 2rem;
+      margin-bottom: 1%;
+    }
   }
 }

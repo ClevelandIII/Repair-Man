@@ -1,19 +1,24 @@
-.image{
-    width: 15rem;
-    height: 15rem;
-    margin-right: 1.5%;
-    margin-bottom: 1%;
-}
+@use '../themes/defaultThemes' as *;
+@use '../util' as *;
 
-.photos{
+.photos {
+  min-height: Calc(100vh - 80px - 7rem);
+  margin-top: 1rem;
+  .gallery {
     padding: 2rem 2rem;
     width: 90%;
     margin: 0 auto;
-}
+    .image {
+      width: 15rem;
+      height: 15rem;
+      margin-right: 1.5%;
+      margin-bottom: 1%;
+    }
+  }
 
-.title{
+  .title {
     font-size: 2rem;
     text-align: center;
-    margin-top: 1%;
     margin-bottom: 0%;
+  }
 }
