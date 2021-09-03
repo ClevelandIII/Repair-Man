@@ -110,17 +110,17 @@
 
 # Delivery
 
-**Screenshots of final product:**  
-**How will it be presented?**  
-**Who is presenting what?**  
-**How did they like it?**  
-**Was there anything to fix or change?**
+**Screenshots of final product:**  [HomeScreen](Capture.PNG)      
+**How will it be presented?**  It will not be presented.   
+**Who is presenting what?**  Nobody will be presenting anything.   
+**How did they like it?**  Unsure.   
+**Was there anything to fix or change?** No, i dont think so ;)  
 
 # Maintenance
 
 > _This is normally a section for later that is used after development. This time it will be a reflection area._
 
-**What did you do wrong, and how will you do it differently next time:**  
+**What did you do wrong, and how will you do it differently next time:** 
 **What was the hardest part of this project:**  
 **What part was the most fun to do:**  
 **Is there a way that I could have made this SDLC better or more comprehensive:**
